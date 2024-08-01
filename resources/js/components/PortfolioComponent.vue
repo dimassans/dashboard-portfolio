@@ -12,19 +12,25 @@
             </div>
         </div>
     </nav>
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero">
 
-        <img src="assets/img/hero-bg-abstract.jpg" alt="">
+        <img src="assets/img/hero-bg-abstract1.png" class="color-section" alt="background">
   
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xl-7 col-lg-9 text-center">
-              <h1>One Page Bootstrap Website Template</h1>
-              <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="col-xl-8 col-lg-10 text-center">
+              <h1 style="font-size: 90px; color: navy;" class="mb-5"><b>One Step Closer To</b></h1>
+              <h1 style="font-size: 90px;" class="gradient-text"><b>Your Dream Job</b></h1>
+              <p style="margin-top: 80px;">Let’s Us Help You Find A Job That Suits You The Best</p>
             </div>
           </div>
           <div class="text-center">
-            <a href="#about" class="btn-get-started">Get Started</a>
+            <a href="#about" class="btn-get-started" style="text-decoration:none;">Get Started</a>
+            <a href="#" class="ms-5 btn-get-ourstory" style="text-decoration:none;">
+              <i class="bi bi-play-fill" style="font-size: 16px;"></i> Our Story</a>
+          </div>
+          <div class="text-center">
+            <div class="my-4"><h1>500</h1></div>
           </div>
   
           <div class="row gy-4 mt-5">

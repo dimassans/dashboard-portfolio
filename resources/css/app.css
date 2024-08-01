@@ -60,7 +60,20 @@
     --surface-color: #469fdf;
     --contrast-color: #ffffff;
   }
+
+  .color-section{
+    background-color: rgb(241, 249, 255);
+  }
+  .gradient-text {
+    font-size: 90px;
+    background: linear-gradient(180deg, rgba(37,105,187,1) 0%, rgba(32,132,204,1) 25%, rgba(3,151,255,1) 63%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
   
+  .text-navy{
+    color: #1B3F73;
+  }
   /* Smooth scroll */
   :root {
     scroll-behavior: smooth;
@@ -879,19 +892,46 @@
   
   .hero .btn-get-started {
     color: var(--contrast-color);
-    background: var(--accent-color);
+    background: #1B3F73;
     font-weight: 600;
     font-size: 16px;
     letter-spacing: 0.5px;
     display: inline-block;
-    padding: 14px 50px;
-    border-radius: 5px;
+    padding: 18px 50px;
+    border-radius:5px;
     transition: 0.5s;
     margin-top: 30px;
   }
+  .hero .btn-get-ourstory {
+    color: #1B3F73;
+    background: #fcfbff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 17px 60px;
+    border-radius:5px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #1B3F73;
+  }
+
+  .btn-get-ourstory img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Jarak antara gambar dan teks */
+  }
   
   .hero .btn-get-started:hover {
-    background: color-mix(in srgb, var(--accent-color), transparent 15%);
+    font-size: 18px;
+    padding: 20px 52px;
+    background: #466796;
+  }
+  .hero .btn-get-ourstory:hover {
+    color: #fbfdff;
+    font-size: 18px;
+    padding: 19px 62px;
+    background: #466796;
   }
   
   .hero .icon-box {
