@@ -838,7 +838,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 120px 0 60px 0;
+    padding: 0 0 60px 0;
     overflow: hidden;
   }
   
@@ -923,8 +923,6 @@
   }
   
   .hero .btn-get-started:hover {
-    font-size: 18px;
-    padding: 20px 52px;
     background: #466796;
   }
   .hero .btn-get-ourstory:hover {
