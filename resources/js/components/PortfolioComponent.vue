@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar navbar-expand-lg shadow-sm bg-white sticky-top">
         <div class="container d-flex justify-content-evenly">
-            <img src="assets/img/logo SNS HD.png" alt="Bootstrap" width="140px" class="my-2">
-            <a class="nav-link mx-3 text-info" aria-current="page" href="#">Product</a>
+            <img src="assets/img/logo.png" alt="Bootstrap" width="140px" class="my-2">
+            <!--<a class="nav-link mx-3 text-info" aria-current="page" href="#">Product</a>-->
             <a class="nav-link mx-3 text-info" href="#about">About Us</a>
-            <a class="nav-link mx-3 text-info" href="#">Products</a>
+            <!--<a class="nav-link mx-3 text-info" href="#">Products</a>-->
             <a class="nav-link mx-3 text-info" href="#services" aria-disabled="true">Services</a>
             <a class="nav-link mx-3 text-info" aria-disabled="true">Careers</a>
             <a class="nav-link mx-3 text-info" href="#contact" aria-disabled="true">Contact Us</a>
@@ -247,61 +247,26 @@
                 </div>
             </div>
             <div class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" style="margin-top: 128px;">
-                    <h1 style="font-size: 64px;">Dealer yang sudah beroperasi di Indonesia</h1>
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-5 col-lg-5">
-                            <a href="#about" class="btn-get-started" style="text-decoration:none;">Lihat Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <img class="img-fluid" alt="100%x280" src="assets/img/div.member.png">
-                                <div class="card-body">
-                                    <h4 class="card-title">Special title treatment</h4>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="col-md-6" style="margin-top: 128px;">
+                            <h1 style="font-size: 64px;">Dealer yang sudah beroperasi di Indonesia</h1>
+                            <div class="row">
+                                <div class="col-md-5 col-lg-5">
+                                    <a href="#about" class="btn-get-started" style="text-decoration:none;">Lihat Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-body">
+                        <div class="col-md-6" style="margin-top: 128px;">
+                            <div class="row">
+                                <div class="col-lg-2">
                                     <img class="img-fluid" alt="100%x280" src="assets/img/div.member (1).png">
-                                    <h4 class="card-title">Special title treatment</h4>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col">
-                            <div class="card">
-                                <img class="img-fluid" alt="100%x280" src="assets/img/div.member (2).png">
-                                <div class="card-body">
-                                    <h4 class="card-title">Special title treatment</h4>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img class="img-fluid" alt="100%x280" src="assets/img/div.member (3).png">
-                                    <h4 class="card-title">Special title treatment</h4>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
             <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->
