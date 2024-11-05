@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg shadow-sm bg-white sticky-top">
         <div class="container d-flex justify-content-evenly">
-            <img src="/assets/img/logo SNS HD.png" alt="Bootstrap" width="140px" class="my-2">
+            <img src="assets/img/logo SNS HD.png" alt="Bootstrap" width="140px" class="my-2">
             <a class="nav-link mx-3 text-info" aria-current="page" href="#">Product</a>
             <a class="nav-link mx-3 text-info" href="#about">About Us</a>
             <a class="nav-link mx-3 text-info" href="#">Products</a>
