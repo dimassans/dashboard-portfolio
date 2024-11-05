@@ -34,6 +34,30 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css','resources/sass/app.scss', 'resources/js/app.js'])
+    <style>
+        body {
+          background-image: url('assets/img/Group 1171275879.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          color: var(--default-color);
+          background-color: var(--background-color);
+          font-family: var(--default-font);
+        }
+        .navbar .nav-link:hover {
+    color: rgba(0, 123, 255, 0.7); /* Warna teks dengan transparansi */
+    background-color: rgba(255, 255, 255, 0.5); /* Latar belakang putih transparan */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Efek hover saat berada di atas halaman */
+.hover-transparent:hover {
+    color: rgba(0, 123, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+      </style>
+
 </head>
 <body>
     <div id="app">
