@@ -67,7 +67,6 @@
   .gradient-text {
     font-size: 90px;
     background: linear-gradient(180deg, rgba(37,105,187,1) 0%, rgba(32,132,204,1) 25%, rgba(3,151,255,1) 63%);
-    -webkit-background-clip: text;
     color: transparent;
   }
 
