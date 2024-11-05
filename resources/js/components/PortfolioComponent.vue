@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg shadow-sm bg-white sticky-top">
         <div class="container d-flex justify-content-evenly">
-            <img src="assets/img/logo.png" alt="Bootstrap" width="140px" class="my-2">
+            <a href="#"><img src="assets/img/logo.png" alt="Bootstrap" width="140px" class="my-2"></a>
             <!--<a class="nav-link mx-3 text-info" aria-current="page" href="#">Product</a>-->
             <a class="nav-link mx-3 text-info" href="#about">About Us</a>
             <!--<a class="nav-link mx-3 text-info" href="#">Products</a>-->
@@ -13,24 +13,24 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 128px;">
-                    <h1 style="color: #00AEEF; font-size: 64px;">Cooling Care on the Go, AC Pro You Should Know</h1>
-                    <div class="row">
+                <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 132px;">
+                    <h1 class="ms-3">Cooling Care on the Go, AC Pro You Should Know</h1>
+                    <div class="row ms-2">
                         <div class="col-md-5 col-lg-5">
                         <p class="description" style="font-size: 12px;">Unlock Cool Comfort and Superior AC Solutions with <span style="color: blue;"><b>SNS</b></span> : Ride in Style!</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4">
+                    <div class="row ms-2">
+                        <div class="col-md-4">
                             <a href="#about" class="btn-get-started" style="text-decoration:none;">Our Service</a>
                         </div>
-                        <div class="col-md-5 col-lg-5">
+                        <div class="col-md-5">
                             <a href="#about" class="btn-get-started" style="text-decoration:none;">Our Products</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
-                    <img src="assets/img/illus.png" style="width: 700px;" alt="...">
+                <div class="col-md-6">
+                    <img class="ms-4" src="assets/img/illus.png" style="width: 100%; margin-top: 8%;" alt="...">
                 </div>
             </div>
         </div>
@@ -38,39 +38,44 @@
         <div class="hero" id="about">
             <div class="container">
                 <div class="row mb-5 mt-4">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body rounded px-4" style="background-color: #0081B1;">
-                                <div class="row">
-                                    <div class="col-md-10 col-lg-6">
-                                    <h1 style="color:white; font-size: 40px;">Tentang SNS.AC</h1>
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="description" style="color:white; font-size: 16px;">SNS.AC adalah perusahaan SNS (PT. Surya Nusantara Sentosa) yang bergerak dibidang jasa service AC Mobil & Service AC Mobil dan pendirian perusahaan. Sejak 2017, SNS.AC telah membantu lebih dari 8000 costumer dalam segi otomotif di Indonesia.</p>
-                                            <p class="description" style="color:white; font-size: 16px;"><i class="bi bi-play-fill">Sekilas tentang SNS.AC</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row mx-5">
-                                        <div class="col-md-4 text-center">
-                                            <h1 class="fs-1" style="color:white;">7</h1>
-                                            <p style="font-size: 16px; color:white;"><b>Tahun Pengalaman</b></p>
-                                        </div>
-                                        <div class="col-md-3 text-center">
-                                            <h1 class="fs-1" style="color:white;">20+</h1>
-                                            <p style="font-size: 16px; color:white;"><b>Lokasi Dealer</b></p>
-                                        </div>
-                                        <div class="col-md-3 text-center">
-                                            <h1 class="fs-1" style="color:white;">200+</h1>
-                                            <p style="font-size: 16px; color:white;"><b>Cabang</b></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body rounded px-4" style="background-color: #0081B1;">
+                <div class="row">
+                    <!-- Kolom teks dengan lebar lebih kecil untuk memberi ruang bagi gambar di kanan -->
+                    <div class="col-md-8">
+                        <h1 style="color:white; font-size: 40px;">Tentang SNS.AC</h1>
+                        <div class="row">
+                            <div class="col">
+                                <p class="description" style="color:white; font-size: 16px;">SNS.AC adalah perusahaan SNS (PT. Surya Nusantara Sentosa) yang bergerak dibidang jasa service AC Mobil & Service AC Mobil dan pendirian perusahaan. Sejak 2017, SNS.AC telah membantu lebih dari 8000 costumer dalam segi otomotif di Indonesia.</p>
+                                <p class="description" style="color:white; font-size: 16px;"><i class="bi bi-play-fill">Sekilas tentang SNS.AC</i></p>
                             </div>
                         </div>
-                        <img src="assets/img/Reta.png" style="width: 495px; margin-left:58%" alt="...">
+                        <div class="row mx-5">
+                            <div class="col-md-4 text-center">
+                                <h1 class="fs-1" style="color:white;">7</h1>
+                                <p style="font-size: 16px; color:white;"><b>Tahun Pengalaman</b></p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <h1 class="fs-1" style="color:white;">20+</h1>
+                                <p style="font-size: 16px; color:white;"><b>Lokasi Dealer</b></p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <h1 class="fs-1" style="color:white;">200+</h1>
+                                <p style="font-size: 16px; color:white;"><b>Cabang</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kolom gambar di sisi kanan -->
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/Reta.png" alt="..." class="img-fluid mt-2">
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                 <div class="container text-center" id="services">
                     <div class="row justify-content-center">
                         <div class="col-md-10 mt-5">
@@ -307,7 +312,7 @@
         <!-- Grid column -->
         <div class="col-md-2 mb-4">
           <!-- Content -->
-          <img src="/assets/img/logo SNS HD.png" alt="Bootstrap" width="140px" class="my-2">
+          <img src="/assets/img/logo.png" alt="Bootstrap" width="140px" class="my-2">
         </div>
         <!-- Grid column -->
 
@@ -371,7 +376,7 @@
         </div>
         <div class="col-md-2 mb-4">
           <!-- Links -->
-          <!--<h6 class="text-uppercase fw-bold mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
             Perusahaan
           </h6>
           <p>
@@ -383,7 +388,7 @@
           <p>
             <a href="#!" class="text-reset" style="text-decoration: none;">ANS</a>
           </p>
-          <p>
+          <!--<p>
             <a href="#!" class="text-reset" style="text-decoration: none;">Hubungi kami</a>
           </p>
           <p>
@@ -404,11 +409,6 @@
         </div>
         <div class="col-md-1 mb-4">-->
           <!-- Links -->
-            <img src="assets/img/Link.png" width="124px">
-        </div>
-        <div class="col-md-1 mb-4">
-          <!-- Links -->
-            <img src="assets/img/Link (1).png" class="ms-3" width="124px">
         </div>
 
         <!-- Grid column -->

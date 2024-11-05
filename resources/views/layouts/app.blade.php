@@ -878,7 +878,6 @@
     inset: 0;
     display: block;
     width: 100%;
-    height: 100%;
     object-fit: cover;
     z-index: 1;
   }
@@ -920,7 +919,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     display: inline-block;
-    padding: 18px 50px;
+    padding: 16px 32px;
     border-radius:5px;
     transition: 0.5s;
     margin-top: 30px;
