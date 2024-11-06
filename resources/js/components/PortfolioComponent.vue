@@ -10,71 +10,70 @@
             <a class="nav-link mx-3 text-info" href="#contact" aria-disabled="true">Contact Us</a>
         </div>
     </nav>
-    <div class="hero">
+    <section id="home" class="hero pt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 132px;">
-                    <h1 class="ms-3">Cooling Care on the Go, AC Pro You Should Know</h1>
-                    <div class="row ms-2">
-                        <div class="col-md-5 col-lg-5">
-                        <p class="description" style="font-size: 12px;">Unlock Cool Comfort and Superior AC Solutions with <span style="color: blue;"><b>SNS</b></span> : Ride in Style!</p>
-                        </div>
-                    </div>
-                    <div class="row ms-2">
-                        <div class="col-md-4">
-                            <a href="#about" class="btn-get-started" style="text-decoration:none;">Our Service</a>
-                        </div>
-                        <div class="col-md-5">
-                            <a href="#about" class="btn-get-started" style="text-decoration:none;">Our Products</a>
-                        </div>
+            <div class="d-flex flex-column flex-md-row flex-wrap align-items-center">
+                <!-- Text Section -->
+                <div class="col-md-6 px-4">
+                    <h1 class="pe-5"><b>Cooling Care on the Go, AC Pro You Should Know</b></h1>
+                    <p class="description pe-5" style="font-size: 12px;">
+                        Unlock Cool Comfort and Superior AC Solutions with 
+                        <span style="color: blue;"><b>SNS</b></span>: Ride in Style!
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#about" class="btn-get-started" style="text-decoration: none;">Our Service</a>
+                        <a href="#about" class="btn-get-started" style="text-decoration: none;">Our Products</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img class="ms-4" src="assets/img/illus.png" style="width: 100%; margin-top: 8%;" alt="...">
+                <!-- Image Section -->
+                <div class="col-md-6 text-center text-md-end px-4">
+                    <img src="assets/img/illus.png" alt="Profile" class="img-fluid mt-4 mx-auto d-md-block" />
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    
+    <section>       
         <div class="hero" id="about">
             <div class="container">
-                <div class="row mb-5 mt-4">
-    <div class="col">
-        <div class="card">
-            <div class="card-body rounded px-4" style="background-color: #0081B1;">
-                <div class="row">
-                    <!-- Kolom teks dengan lebar lebih kecil untuk memberi ruang bagi gambar di kanan -->
-                    <div class="col-md-8">
-                        <h1 style="color:white; font-size: 40px;">Tentang SNS.AC</h1>
-                        <div class="row">
-                            <div class="col">
-                                <p class="description" style="color:white; font-size: 16px;">SNS.AC adalah perusahaan SNS (PT. Surya Nusantara Sentosa) yang bergerak dibidang jasa service AC Mobil & Service AC Mobil dan pendirian perusahaan. Sejak 2017, SNS.AC telah membantu lebih dari 8000 costumer dalam segi otomotif di Indonesia.</p>
-                                <p class="description" style="color:white; font-size: 16px;"><i class="bi bi-play-fill">Sekilas tentang SNS.AC</i></p>
+                <div class="row mb-5">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body rounded px-4" style="background: linear-gradient(180deg, rgba(0,129,177,1) 25%, rgba(63,167,241,1) 86%); padding:0%;">
+                                <div class="d-flex flex-column flex-md-row flex-wrap">
+                                    <!-- Kolom teks dengan lebar lebih kecil untuk memberi ruang bagi gambar di kanan -->
+                                    <div class="col-md-8 mt-4">
+                                        <h1 style="color:white; font-size: 40px;">Tentang SNS.AC</h1>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="description" style="color:white; font-size: 16px;">SNS.AC adalah perusahaan SNS (PT. Surya Nusantara Sentosa) yang bergerak dibidang jasa service AC Mobil & Service AC Mobil dan pendirian perusahaan. Sejak 2017, SNS.AC telah membantu lebih dari 8000 costumer dalam segi otomotif di Indonesia.</p>
+                                                <p class="description" style="color:white; font-size: 16px;"><i class="bi bi-play-fill">Sekilas tentang SNS.AC</i></p>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-5 mb-4">
+                                            <div class="col-md-4 text-center">
+                                                <h1 class="fs-1" style="color:white;">7</h1>
+                                                <p style="font-size: 16px; color:white;"><b>Tahun Pengalaman</b></p>
+                                            </div>
+                                            <div class="col-md-4 text-center">
+                                                <h1 class="fs-1" style="color:white;">20+</h1>
+                                                <p style="font-size: 16px; color:white;"><b>Lokasi Dealer</b></p>
+                                            </div>
+                                            <div class="col-md-4 text-center">
+                                                <h1 class="fs-1" style="color:white;">200+</h1>
+                                                <p style="font-size: 16px; color:white;"><b>Cabang</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Kolom gambar di sisi kanan -->
+                                    <div class="col-md-4 d-flex align-items-end justify-content-end order-md-last">
+                                        <img src="assets/img/Reta2.png" alt="Tentang SNS.AC" class="img-fluid responsive-img">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row mx-5">
-                            <div class="col-md-4 text-center">
-                                <h1 class="fs-1" style="color:white;">7</h1>
-                                <p style="font-size: 16px; color:white;"><b>Tahun Pengalaman</b></p>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <h1 class="fs-1" style="color:white;">20+</h1>
-                                <p style="font-size: 16px; color:white;"><b>Lokasi Dealer</b></p>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <h1 class="fs-1" style="color:white;">200+</h1>
-                                <p style="font-size: 16px; color:white;"><b>Cabang</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Kolom gambar di sisi kanan -->
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/Reta.png" alt="..." class="img-fluid mt-2">
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
                 <div class="container text-center" id="services">
                     <div class="row justify-content-center">
@@ -88,9 +87,9 @@
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-md-6 col-lg-6">
-                            <img src="assets/img/Container.png" class="me-5" style="width: 635px;" alt="...">
+                            <img src="assets/img/Container.png" class="me-5" alt="...">
                         </div>
-                        <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 128px;">
+                        <div class="col-md-6 col-lg-6">
                             <h1 style="font-size: 40px;" class="ms-5">Kualitas Prima dalam Setiap Pelayanan</h1>
                                 <div class="row">
                                     <div class="col ms-5">
@@ -110,7 +109,7 @@
                 </div>
                 <div class="container">
                     <div class="row" style="margin-top:10%;">
-                        <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 128px;">
+                        <div class="col-md-6 col-lg-6">
                             <h1 style="font-size: 40px;" class="me-5">Mengutamakan Kepuasan Pelanggan</h1>
                                 <div class="row">
                                     <div class="col-lg-11 me-5">
@@ -127,16 +126,16 @@
                                 </div>
                         </div>
                         <div class="col-md-6 col-lg-6">
-                            <img src="assets/img/Background.png" class="me-5" style="width: 640px;" alt="...">
+                            <img src="assets/img/Background.png" class="me-5" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row" style="margin-top:10%;">
                         <div class="col-md-6 col-lg-6">
-                            <img src="assets/img/Container.png" class="me-5" style="width: 635px;" alt="...">
+                            <img src="assets/img/Container.png" class="me-5" alt="...">
                         </div>
-                        <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 128px;">
+                        <div class="col-md-6 col-lg-6">
                             <h1 style="font-size: 40px;" class="ms-5">Keberlanjutan dan Tanggung Jawab Sosial</h1>
                                 <div class="row">
                                     <div class="col ms-5">
@@ -156,7 +155,7 @@
                 </div>
                 <div class="container">
                     <div class="row" style="margin-top:10%;">
-                        <div class="col-md-6 col-lg-6" style="margin-top: 128px; margin-bottom: 128px;">
+                        <div class="col-md-6 col-lg-6">
                             <h1 style="font-size: 40px;" class="me-5">Kepercayaan dari Semua Dealer di Indonesia</h1>
                                 <div class="row">
                                     <div class="col-lg-11 me-5">
@@ -173,30 +172,29 @@
                                 </div>
                         </div>
                         <div class="col-md-6 col-lg-6">
-                            <img src="assets/img/Background.png" class="me-5" style="width: 665px;" alt="...">
+                            <img src="assets/img/Background.png" class="me-5" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <img src="assets/img/illustrasi.png" class="me-5" style="width: 650px;" alt="...">
                     <div class="row" style="margin-top:10%;">
                         <div class="col-md-6 col-lg-6">
-
+                            <img src="assets/img/illustrasi.png" class="me-5 mt-5" alt="...">
                         </div>
                         <div class="col-md-6 col-lg-6">
                             <h1 style="font-size: 40px;" class="ms-5">Why Choose Us</h1>
                                 <div class="row">
-                                    <div class="col ms-5">
+                                    <div class="col ms-5 mb-3">
                                         <p class="description" style="font-size: 16px;">Enjoy a different experience after the AC service and find a fresh feeling of coolness, of course.</p>
                                     </div>
                                 </div>
-                                <div class="row mt-3">
+                                <div class="row">
                                     <div class="col-lg-12 ms-5">
-                                        <div class="card border-0 border-0 shadow rounded mb-3">
+                                        <div class="card border-0 shadow rounded mb-3">
                                             <div class="card-body rounded bg-white">
                                                 <div class="row">
                                                     <div class="col-sm-2 text-center">
-                                                        <img src="assets/img/flight.png" style="width:40px; margin:auto;" alt="">
+                                                        <img src="assets/img/flight.png" alt="">
                                                     </div>
                                                     <div class="col-sm-10">
                                                         <p style="color: black; font-size: 18px;"><b>Tentang SNS.AC</b></p>
@@ -209,7 +207,7 @@
                                             <div class="card-body rounded bg-white">
                                                 <div class="row">
                                                     <div class="col-sm-2 text-center">
-                                                        <img src="assets/img/flight (1).png" style="width:60px; margin:auto;" alt="">
+                                                        <img src="assets/img/flight (1).png" alt="">
                                                     </div>
                                                     <div class="col-sm-10">
                                                         <p style="color: black; font-size: 18px;"><b>Quality Products</b></p>
@@ -222,7 +220,7 @@
                                             <div class="card-body rounded bg-white">
                                                 <div class="row">
                                                     <div class="col-sm-2 text-center">
-                                                        <img src="assets/img/flight (2).png" style="width:60px; margin:auto;" alt="">
+                                                        <img src="assets/img/flight (2).png" alt="">
                                                     </div>
                                                     <div class="col-sm-10">
                                                         <p style="color: black;  font-size: 18px;"><b>Quick and Efficient Service</b></p>
@@ -235,7 +233,7 @@
                                             <div class="card-body rounded bg-white">
                                                 <div class="row">
                                                     <div class="col-sm-2 text-center">
-                                                        <img src="assets/img/flight (3).png" style="width:40px; margin:auto;" alt="">
+                                                        <img src="assets/img/flight (3).png" alt="">
                                                     </div>
                                                     <div class="col-sm-10">
                                                         <p style="color: black; font-size: 18px;"><b>Competitive Pricing</b></p>
@@ -254,24 +252,51 @@
             <div class="hero">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6" style="margin-top: 128px;">
+                        <!-- Kolom Teks -->
+                        <div class="col-md-6 d-flex flex-column justify-content-center" style="margin-top: 128px;">
                             <h1 style="font-size: 64px;">Dealer yang sudah beroperasi di Indonesia</h1>
-                            <div class="row">
-                                <div class="col-md-5 col-lg-5">
-                                    <a href="#about" class="btn-get-started" style="text-decoration:none;">Lihat Selengkapnya</a>
-                                </div>
+                            <div class="mt-4">
+                                <a href="#about" class="btn-get-started" style="text-decoration: none;">Lihat Selengkapnya</a>
                             </div>
                         </div>
-                        <div class="col-md-6" style="margin-top: 128px;">
-                            <div class="row">
-                                <div class="col-lg-2">
-                                    <img class="img-fluid" alt="100%x280" src="assets/img/div.member (1).png">
+                        <!-- Kolom Gambar dengan Carousel -->
+                        <div class="col-md-6 d-flex align-items-center justify-content-center" style="margin-top: 128px;">
+                            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></li>
+                                    <li data-bs-target="#heroCarousel" data-bs-slide-to="1"></li>
+                                    <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
+                                </ol>
+            
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/SSM.jpg" class="d-block w-100 img-fluid" alt="Slide 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/Tunas.png" class="d-block w-100 img-fluid" alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/Agung.png" class="d-block w-100 img-fluid" alt="Slide 3">
+                                    </div>
                                 </div>
+            
+                                <!-- Controls -->
+                                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
+        </section>
             <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->

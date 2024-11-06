@@ -35,6 +35,13 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <style>
+        .navbar .nav-link:hover,
+        .hover-transparent:hover {
+            color: rgba(0, 123, 255, 0.7); /* Text color with transparency */
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
         :root {
     --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --heading-font: "Raleway",  sans-serif;
@@ -106,6 +113,10 @@
   # General Styling & Shared Classes
   --------------------------------------------------------------*/
   body {
+    background-image: url('assets/img/Background_body.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--default-color);
     background-color: var(--background-color);
     font-family: var(--default-font);
@@ -131,6 +142,13 @@
     color: var(--heading-color);
     font-family: var(--heading-font);
   }
+
+  .responsive-img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
   /* Pulsating Play Button
   ------------------------------*/
@@ -861,7 +879,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 0 60px 0;
     overflow: hidden;
   }
 
@@ -874,7 +891,6 @@
   }
 
   .hero img {
-    position: absolute;
     inset: 0;
     display: block;
     width: 100%;
